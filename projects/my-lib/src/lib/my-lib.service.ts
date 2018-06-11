@@ -1,9 +1,14 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
 })
 export class MyLibService {
 
-  constructor() { }
+  constructor() {
+  }
+
+  public message(): void {
+    console.log('message');
+  }
 }
